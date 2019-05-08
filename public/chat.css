@@ -1,0 +1,11 @@
+html {
+    background: #eff0f0;
+}
+
+#Appbar {
+    height: 50px;
+}
+
+#Appbar div {
+    height: 100%;
+}

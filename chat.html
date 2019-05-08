@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>oChat</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/css/mdb.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./chat.css">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/js/mdb.min.js"></script>
+    <!-- Socket.IO JavScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="./chat.js"></script>
+</head>
+
+<body>
+    <section id="Messages" class="animated fadeIn">
+        <h1 class="text-center p-4 cloudy-knoxville-gradient blue-text m-0">oChat</h1>
+        <ul id="Chat-Messages" class="list-group mb-5">
+        </ul>
+    </section>
+    <section id="Appbar" class="z-depth-1 animated slideInUp fixed-bottom">
+        <div class="cloudy-knoxville-gradient blue-text md-form input-group m-0">
+            <input id="Input-Message" type="text" class="form-control blue-text border-0"
+                placeholder="Enter your message">
+            <div class="input-group-append">
+                <button id="Btn-Send" class="btn btn-md btn-secondary m-0 px-3" type="button">Send</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
