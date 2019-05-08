@@ -21,7 +21,7 @@ Install
 ```
 npm install
 ```
-<br>
+
 Run
 ```
 npm start
