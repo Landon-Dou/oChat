@@ -21,7 +21,7 @@ app.get('/', function (req, res) {
 io.on('connection', function (socket) {
     let userid = Math.random().toString(36).substring(2, 8)
     if (history.length) {
-        for (let item of history) {
+        for (let item of history.slice(-10)) {
             socket.emit('history-msg', item)
         }
         socket.emit('sys-msg', '[ SYS ] These are the latest messages in this room')
@@ -33,6 +33,7 @@ io.on('connection', function (socket) {
         msg = `[ ${userid} ] ${msg}`
         io.emit('chat-msg', msg)
         history.push(msg)
+        history = history.slice(-10)
     })
 })
 
