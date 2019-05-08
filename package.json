@@ -1,0 +1,23 @@
+{
+  "name": "ochat",
+  "version": "1.0.0",
+  "description": "A web-based chat room nodejs application, using express and socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Landon-Dou/oChat.git"
+  },
+  "author": "Landon Dou <landon.dou@outlook.com> (https://ltwnow.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Landon-Dou/oChat/issues"
+  },
+  "homepage": "https://github.com/Landon-Dou/oChat#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
