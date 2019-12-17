@@ -2,6 +2,8 @@
 A web-based chat room nodejs application, using express and socket.io
 <br><br><br>
 
+> Transfered from the old account by Dec 17, 2019 EST.
+
 ## Features
 Three types of message in different colours
 ![1557344328360](assets/1557344328360.png)
