@@ -31,6 +31,4 @@ npm start
 <br><br>
 
 ## License
-© Landon Dou
-<br>
 Licensed under the [MIT License](LICENSE).
